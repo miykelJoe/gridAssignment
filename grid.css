@@ -1,0 +1,83 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(73, 73, 73);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+header a button {
+    background-color: rgb(179, 179, 179);
+    margin: .5em;
+    padding: 1em;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px 1px rgb(119, 119, 119);
+    cursor: pointer;
+}
+header a button:hover{
+    background-color: rgb(55, 55, 55);
+    color: #FFF;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ main .grid{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-areas:
+    'a a b'
+    'c d d'
+    'c e e';
+    width: 60%;
+    gap: 10px;
+    padding: 2em 11em 3em 4.5em;
+    box-shadow: 0px 0px 20px 0px #000;
+}
+
+main .box{
+    padding: 3em;
+}
+
+
+main .a{
+    background-color: rgb(226, 225, 225);
+    grid-area: a;
+    height: 10em;
+}
+
+main .b{
+    background-color: rgb(196, 195, 195);
+    grid-area: b;
+    height: 10em;
+}
+main .c{
+    background-color: rgb(126, 125, 125);
+    grid-area: c;
+}
+main .d{
+    background-color: rgb(96, 95, 95);
+    grid-area: d;
+}
+main .e{
+    background-color: rgb(46, 45, 45);
+    grid-area: e;
+    height: 8em;
+} 
