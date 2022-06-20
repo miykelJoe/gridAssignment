@@ -91,7 +91,7 @@ main .card .btn button{
     padding: .6em 1.6em;
     font-size: 15px;
     border-radius: 20px;
-    border: 1px;
+    border: 1px solid var(--veryLightGray);
     width: 70%;
     transition: .3s;
 }
@@ -202,7 +202,7 @@ main .card3 button{
         background-color: var(--veryLightGray);
         padding: .6em 1.6em;
         border-radius: 20px;
-        border: 1px;
+        border: 1px solid var(--veryLightGray);
         transition: .3s;
     }
     main .card .btn button:hover{
@@ -319,7 +319,7 @@ main .card .btn button{
     padding: .6em 1.6em;
     font-size: 15px;
     border-radius: 20px;
-    border: 1px;
+    border: 1px solid var(--veryLightGray);
     width: 70%;
     transition: .3s;
 }
